@@ -1,0 +1,27 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "node server.js",
+    "compile": "node ./ethereum/compile.js",
+    "deploy": "node ./ethereum/deploy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "8.1.0",
+    "ganache-cli": "6.4.5",
+    "mocha": "6.1.4",
+    "next": "4.1.4",
+    "next-routes": "1.4.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "semantic-ui-react": "0.87.3",
+    "solc": "0.4.17",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "1.0.0-beta.55"
+  }
+}
