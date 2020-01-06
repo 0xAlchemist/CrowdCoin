@@ -1,7 +1,7 @@
 {
-  "name": "kickstart",
+  "name": "crowdcoin",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ethereum dApp inspired by Kickstarter - from Stephen Grider's Ethereum and Solidity: The Complete Developer's Guide course on Udemy",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
